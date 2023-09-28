@@ -13,7 +13,7 @@ const Home=()=>{
             <h1>WELCOME TO,<br/>INDIAN RAILWAYS INFO</h1>
              <p>Hello RailFans,<br/> Welcome to the place where every details of<br/> 
               Indian Railways is available. If you are new here<br/><br/>
-              <a id="signup" href="#">Sign Up</a>OR<a id="login"  href="#">Log In</a></p>
+              <a id="signup" href="#">Sign Up</a>OR<Link to="/Login"><a id="login"  href="#">Log In</a></Link></p>
             </div>
         </div>
 
