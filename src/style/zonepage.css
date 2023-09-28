@@ -1,0 +1,26 @@
+.content1 h1{
+    text-align: center;
+    margin: 30px;
+}
+.content1{
+    margin-left: 15%;
+    margin-right: 15%;
+    
+}
+.content1 img{
+    padding: 20px;
+    width: 50%;
+    height: 50%;
+    margin-left: 24%;
+}
+.content1 .para{
+    line-height: 30px;
+    font-size: 20px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.content1 h3{
+    padding: 10px;
+}
+.content1 h4{
+    padding: 10px;
+}
