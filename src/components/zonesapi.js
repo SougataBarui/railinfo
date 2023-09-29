@@ -1,6 +1,6 @@
 const Zonesapi=[
 {
-    id:"0",
+    
     heading:"Northern Railway (NR)",
     imgsrc:[
         "../img/northern-zone.jpg",

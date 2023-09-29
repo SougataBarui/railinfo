@@ -12,7 +12,7 @@ const Login=()=>{
         <div className="contentBx">
           <div className="formBx">
             <h2>Login</h2>
-            <form >
+            <form>
               <div className="inputBx">
                 <span>Username</span>
                 <input
