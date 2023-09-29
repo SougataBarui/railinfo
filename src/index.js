@@ -10,6 +10,7 @@ import Home from './components/home';
 import Zones from './components/zones';
 import Zoneinfo from './components/zonesinfo';  
 import Login from './components/login';
+import Signup from './components/signup';
 
 
 const AppContainer = ()=>{
@@ -24,6 +25,9 @@ const AppContainer = ()=>{
       </Routes>
       <Routes>
         <Route path='/Login' element={<Login/>}/>
+      </Routes>
+      <Routes>
+        <Route path='/Signup' element={<Signup/>}/>
       </Routes>
       <Routes>
         <Route path='/Zoneinfo' element={<Zoneinfo/>}/>
