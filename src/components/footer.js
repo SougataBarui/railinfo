@@ -30,7 +30,7 @@ const Footer = ()=>{
         </div>
         <div class="col">
             <h3>Newsletter<div class="underline"><span></span></div></h3>
-            <form>
+            <form id="newsletter">
                 <i class="far fa-regular fa-envelope"></i>
                 <input type="email" placeholder="Enter email ID"required/>
                 <button type="submit"><i class=" fas fa-solid fa-arrow-right"></i></button>

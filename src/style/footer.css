@@ -47,7 +47,7 @@ footer{
     padding: 0px;
     
 }
-form{
+#newsletter{
     padding-bottom: 15px;
     display: flex;
     align-items: center;
@@ -55,11 +55,11 @@ form{
     border-bottom: 1px solid #ccc;
     margin-bottom: 50px;
 }
-form .far{
+#newsletter .far{
     font-size: 18px;
     margin-right: 10px;
 }
-form input{
+#newsletter input{
     width: 100%;
     background: transparent;
     color: #ccc;
