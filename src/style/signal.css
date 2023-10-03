@@ -1,0 +1,60 @@
+
+
+  
+  
+  
+.cover img{
+    padding: 3px;
+    width: 100%;
+    height: 29rem;
+    filter: blur(4px);
+    -webkit-filter: blur(1.5px);
+  }
+  #text h1 {
+    
+    position: absolute;
+    top: 28%;
+    z-index: 2;
+    padding: 20px;
+    margin-left: 400px;
+    text-align: center;
+    font-family: Georgia,serif;
+    color: white;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+  }
+  #text p {
+    color: white;
+    position: absolute;
+    top: -20%;
+    z-index: 2;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    text-align: center;
+    font-family: Georgia,serif;
+    font-size: 1.1rem;
+    margin: 26rem;
+  }
+  .signal{
+    margin-right: 27%;
+    margin-left: 1%;
+  }
+  .signal p{
+    line-height: 30px;
+    font-size: 20px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  }
+  .signal .list{
+    line-height: 30px;
+    font-size: 20px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  }
+  .signal .image{
+    width: 50%;
+    height: 50%;
+    margin-left: 24%;
+}
+.signal .noimage{
+  margin-left: 24%; 
+}
+.he{
+  margin-left: 24%;
+}

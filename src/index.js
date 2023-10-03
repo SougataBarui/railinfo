@@ -11,7 +11,8 @@ import Zones from './components/zones';
 import Zoneinfo from './components/zonesinfo';  
 import Login from './components/login';
 import Signup from './components/signup';
-
+import Signal from './components/signal';
+import Top from './components/top';
 
 const AppContainer = ()=>{
   return(
@@ -32,12 +33,14 @@ const AppContainer = ()=>{
       <Routes>
         <Route path='/Zoneinfo' element={<Zoneinfo/>}/>
       </Routes>
-      
+      <Routes>
+        <Route path='/Signal' element={<Signal/>}/>
+      </Routes>
       <Routes>
         <Route path='/Zones' element={<Zones/>}/>
       </Routes>
       
-      
+      <Top/>
       <Footer />
     </Router>
   </>

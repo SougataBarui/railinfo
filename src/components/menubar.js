@@ -9,7 +9,7 @@ const Menubar=()=>{
         <div class="menu-bar">
       <img src={Logo} alt=""/>
       <h1 class="logo">Indian Railways<span>Info</span></h1>
-      <ul>
+      <ul class="menu">
         <li><Link to="/"><a href="">Home</a></Link></li>
         <li><Link to="/Zones"><a href="">Zones</a></Link></li>
         <li><a href="#">Locomotives</a>
@@ -18,7 +18,7 @@ const Menubar=()=>{
         </li>
         <li><a href="#">Major Stations</a>
         </li>
-        <li><a href="#">Signals</a></li>
+        <li><Link to="/Signal"><a href="#">Signals</a></Link></li>
         <li><a href="#">About</a></li>
       </ul>
     </div>
