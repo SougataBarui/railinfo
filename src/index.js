@@ -14,6 +14,7 @@ import Signup from './components/signup';
 import Signal from './components/signal';
 import Top from './components/top';
 import Loco from './components/locomotives';
+import Elecloco from './components/elecloco';
 
 const AppContainer = ()=>{
   return(
@@ -36,6 +37,9 @@ const AppContainer = ()=>{
       </Routes>
       <Routes>
         <Route path='/Loco' element={<Loco/>}/>
+      </Routes>
+      <Routes>
+        <Route path='/Elecloco' element={<Elecloco/>}/>
       </Routes>
       <Routes>
         <Route path='/Signal' element={<Signal/>}/>

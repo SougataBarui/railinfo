@@ -1,6 +1,7 @@
 import React from "react";
 import "../style/locomotives.css";
 import "../style/content.css";
+import { Link } from 'react-router-dom';
 const Loco=()=>{
     return(
         <>
@@ -17,12 +18,12 @@ const Loco=()=>{
       <div class="image">
         <img src="../img/elec.jpg" alt="Image" style={{ width: '100%' }}/>
       </div>
-      <div class="content">
+      <div class="conten">
         <h3>ELECTRIC LOCOMOTIVES</h3>
        
-        <a href="../skeleton/elecloco.html">Indian Railways uses various types of electric locomotives to power its trains across the electrified
+        <a href="#"><Link to="/Elecloco">Indian Railways uses various types of electric locomotives to power its trains across the electrified
            rail network. These locomotives are designed for both passenger and freight services and are categorized 
-           based on their power output, wheel arrangement, and other features.</a>
+           based on their power output, wheel arrangement, and other features.</Link></a>
       </div>
       <div class="spacer"></div>
 
@@ -35,7 +36,7 @@ const Loco=()=>{
       <div class="image">
         <img src="../img/Diesel.jpg" alt="Image" style={{ width: '100%' }}/>
       </div>
-      <div class="content">
+      <div class="conten">
         <h3>DIESEL LOCOMOTIVES</h3>
         
         <a href="../skeleton/dieselloco.html">Indian Railways operates a wide range of diesel locomotives to power trains across its extensive 

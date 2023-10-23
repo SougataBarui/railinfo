@@ -3,10 +3,8 @@
   height: 44%;
   width: 100%; /* Adjust as needed */
   }
-  .content{
-    margin-top: 1%;
-  }
- .content a{
+  
+ .conten a{
       text-align: left;
       text-decoration: none;
       line-height: 30px;
