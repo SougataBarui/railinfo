@@ -1,0 +1,22 @@
+.mixelec{
+    margin-right: 27%;
+    margin-left: 1%;
+  }
+  .mixelec p{
+    line-height: 30px;
+    font-size: 20px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  }
+  .mixelec .list{
+    line-height: 30px;
+    font-size: 18px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  }
+  .mixelec .image{
+    width: 50%;
+    height: 50%;
+    margin-left: 24%;
+}
+.mixelec .noimage{
+    margin-left: 24%; 
+  }

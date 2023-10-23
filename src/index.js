@@ -15,6 +15,9 @@ import Signal from './components/signal';
 import Top from './components/top';
 import Loco from './components/locomotives';
 import Elecloco from './components/elecloco';
+import Mixelec from './components/mixelec';
+import Passelec from './components/passelec';
+import Goodselec from './components/goodselec';
 
 const AppContainer = ()=>{
   return(
@@ -40,6 +43,15 @@ const AppContainer = ()=>{
       </Routes>
       <Routes>
         <Route path='/Elecloco' element={<Elecloco/>}/>
+      </Routes>
+      <Routes>
+        <Route path='/Mixelec' element={<Mixelec/>}/>
+      </Routes>
+      <Routes>
+        <Route path='/Passelec' element={<Passelec/>}/>
+      </Routes>
+      <Routes>
+        <Route path='/Goodselec' element={<Goodselec/>}/>
       </Routes>
       <Routes>
         <Route path='/Signal' element={<Signal/>}/>

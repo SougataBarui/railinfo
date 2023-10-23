@@ -1,6 +1,7 @@
 import React from "react";
 import "../style/locomotives.css";
 import "../style/content.css";
+import { Link } from 'react-router-dom';
 const Elecloco=()=>{
     return(
         <>
@@ -19,7 +20,7 @@ const Elecloco=()=>{
       </div>
       <div class="conten">
         <h3>MIXED CLASS</h3>
-        <a href="../skeleton/mixedelec.html">A "mixed" locomotive, in the context of Indian Railways, typically refers to a locomotive that can be used with both goods (freight) and passengers trains.</a>
+        <a href="#"><Link to="/Mixelec">A "mixed" locomotive, in the context of Indian Railways, typically refers to a locomotive that can be used with both goods (freight) and passengers trains.</Link></a>
       </div>
       <div class="spacer"></div>
 
@@ -33,7 +34,7 @@ const Elecloco=()=>{
         </div>
         <div class="conten">
           <h3>PASSENGER CLASS</h3>
-          <a href="../skeleton/passelectric.html">A "passenger" locomotive, in the context of Indian Railways, typically refers to a locomotive that can only be used with passengers trains.</a>
+          <a href="#"><Link to="/Passelec">A "passenger" locomotive, in the context of Indian Railways, typically refers to a locomotive that can only be used with passengers trains.</Link></a>
         </div>
         <div class="spacer"></div>
   
@@ -47,7 +48,7 @@ const Elecloco=()=>{
         </div>
         <div class="conten">
           <h3>GOODS CLASS</h3>
-          <a href="../skeleton/goodselec.html">A "goods" locomotive, in the context of Indian Railways, typically refers to a locomotive that is mainly used with goods trains and sometimes with passenger trains.</a>
+          <a href="#"><Link to="/Goodselec">A "goods" locomotive, in the context of Indian Railways, typically refers to a locomotive that is mainly used with goods trains and sometimes with passenger trains.</Link></a>
            </div>
         <div class="spacer"></div>
   
