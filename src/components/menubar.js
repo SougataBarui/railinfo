@@ -12,7 +12,7 @@ const Menubar=()=>{
       <ul class="menu">
         <li><Link to="/"><a href="">Home</a></Link></li>
         <li><Link to="/Zones"><a href="">Zones</a></Link></li>
-        <li><a href="#">Locomotives</a>
+        <li><Link to="/Loco"><a href="#">Locomotives</a></Link>
         </li>
         <li><a href="#">Wagons</a>
         </li>

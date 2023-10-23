@@ -13,6 +13,7 @@ import Login from './components/login';
 import Signup from './components/signup';
 import Signal from './components/signal';
 import Top from './components/top';
+import Loco from './components/locomotives';
 
 const AppContainer = ()=>{
   return(
@@ -32,6 +33,9 @@ const AppContainer = ()=>{
       </Routes>
       <Routes>
         <Route path='/Zoneinfo' element={<Zoneinfo/>}/>
+      </Routes>
+      <Routes>
+        <Route path='/Loco' element={<Loco/>}/>
       </Routes>
       <Routes>
         <Route path='/Signal' element={<Signal/>}/>
