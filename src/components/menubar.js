@@ -16,7 +16,7 @@ const Menubar=()=>{
         </li>
         <li><a href="#">Wagons</a>
         </li>
-        <li><a href="#">Major Stations</a>
+        <li><Link to="/Station"><a href="#">Major Stations</a></Link>
         </li>
         <li><Link to="/Signal"><a href="#">Signals</a></Link></li>
         <li><a href="#">About</a></li>

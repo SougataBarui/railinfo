@@ -18,6 +18,12 @@ import Elecloco from './components/elecloco';
 import Mixelec from './components/mixelec';
 import Passelec from './components/passelec';
 import Goodselec from './components/goodselec';
+import Dieloco from './components/dieloco';
+import Mixdie from './components/mixdie';
+import Passdie from './components/passdie';
+import Goodsdie from './components/goodsdie';
+import Shundie from './components/shundie';
+import Station from './components/station';
 
 const AppContainer = ()=>{
   return(
@@ -52,6 +58,24 @@ const AppContainer = ()=>{
       </Routes>
       <Routes>
         <Route path='/Goodselec' element={<Goodselec/>}/>
+      </Routes>
+      <Routes>
+        <Route path='/Dieloco' element={<Dieloco/>}/>
+      </Routes>
+      <Routes>
+        <Route path='/Mixdie' element={<Mixdie/>}/>
+      </Routes>
+      <Routes>
+        <Route path='/Passdie' element={<Passdie/>}/>
+      </Routes>
+      <Routes>
+        <Route path='/Goodsdie' element={<Goodsdie/>}/>
+      </Routes>
+      <Routes>
+        <Route path='/Shundie' element={<Shundie/>}/>
+      </Routes>
+      <Routes>
+        <Route path='/Station' element={<Station/>}/>
       </Routes>
       <Routes>
         <Route path='/Signal' element={<Signal/>}/>

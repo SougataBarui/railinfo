@@ -39,10 +39,10 @@ const Loco=()=>{
       <div class="conten">
         <h3>DIESEL LOCOMOTIVES</h3>
         
-        <a href="../skeleton/dieselloco.html">Indian Railways operates a wide range of diesel locomotives to power trains across its extensive 
+        <a href="#"><Link to="/Dieloco">Indian Railways operates a wide range of diesel locomotives to power trains across its extensive 
           network. These diesel locomotives are designed for various purposes, including passenger, freight, and shunting 
           services. As a result, the use of diesel locomotives may decrease on certain routes as electrification 
-          progresses.</a>
+          progresses.</Link></a>
       </div>
       <div class="spacer"></div>
 
