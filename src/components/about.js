@@ -1,6 +1,7 @@
 import React from "react";
 import "../style/about.css";
 import "../style/locomotives.css";
+import About1 from "../img/aboutus.jpg";
 
 const cardImages = document.querySelectorAll(".card-image");
 const cardTitles = document.querySelectorAll(".card-title");
@@ -52,7 +53,7 @@ const About=()=>{
     return(
         <>
         <div class="cover">
-        <img src="../img/aboutus.jpg" alt=""/>
+        <img src={About1} alt=""/>
         <div id="text">
         
         </div>
@@ -72,7 +73,7 @@ const About=()=>{
           </div>
         </div>
         <div class="team"><span>OUR TEAM</span></div>
-        <div class="container">
+        <div class="container1">
           <div class="card">
             <div class="card-image loading"><img src="../img/sougata.jpg" alt="" /></div>
             <div class="card-info">

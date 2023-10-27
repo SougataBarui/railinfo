@@ -19,7 +19,7 @@ const Menubar=()=>{
         <li><Link to="/Station"><a href="#">Major Stations</a></Link>
         </li>
         <li><Link to="/Signal"><a href="#">Signals</a></Link></li>
-        <li><a href="#">About</a></li>
+        <li><Link to="/About"><a href="#">About</a></Link></li>
       </ul>
     </div>
         </>
