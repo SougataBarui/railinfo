@@ -85,10 +85,7 @@ const About=()=>{
                   Email: <a href="mailto:'sougatabarui12@gmail.com'">sougatabarui12@gmail.com</a>
                 </span>
               </p>
-              <div class="card-mediaIcons">
-                <a href="#" class="loading" target="on_blank"><i class="fab fa-facebook-f"></i></a>
-                <a href="#" class="loading" target="on_blank"><i class="fab fa-instagram"></i></a>
-              </div>
+              
             </div>
           </div>
           <div class="card">
@@ -102,10 +99,7 @@ const About=()=>{
                   Email: <a href="mailto:'harshsunwani11@gmail.com'">nikhilkundu2002@gmail.com</a>
                 </span>
               </p>
-              <div class="card-mediaIcons">
-                <a href="#" class="loading" target="on_blank"><i class="fab fa-facebook-f"></i></a>
-                <a href="#" class="loading" target="on_blank"><i class="fab fa-instagram"></i></a>
-              </div>
+              
             </div>
           </div>
           <div class="card">
@@ -119,10 +113,7 @@ const About=()=>{
                   Email: <a href="#">sharender214@gmail.com</a>
                 </span>
               </p>
-              <div class="card-mediaIcons">
-                <a href="#" class="loading" target="on_blank"><i class="fab fa-facebook-f"></i></a>
-                <a href="#" class="loading" target="on_blank"><i class="fab fa-instagram"></i></a>
-              </div>
+              
             </div>
           </div>
         </div>
