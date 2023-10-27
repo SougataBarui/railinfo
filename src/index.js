@@ -24,6 +24,7 @@ import Passdie from './components/passdie';
 import Goodsdie from './components/goodsdie';
 import Shundie from './components/shundie';
 import Station from './components/station';
+import About from './components/about';
 
 const AppContainer = ()=>{
   return(
@@ -82,6 +83,9 @@ const AppContainer = ()=>{
       </Routes>
       <Routes>
         <Route path='/Zones' element={<Zones/>}/>
+      </Routes>
+      <Routes>
+        <Route path='/About' element={<About/>}/>
       </Routes>
       
       <Top/>
