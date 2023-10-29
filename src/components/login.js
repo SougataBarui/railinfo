@@ -1,21 +1,12 @@
-import React, { useState } from "react";
+import React from "react";
 import "../style/login.css"
 import Back from "../img/l1.jpg"
 import { Link } from "react-router-dom";
 
 const Login=()=>{
 
-  const[errors, setErrors]=useState({})
-  const handleInput =(event)=>{
-    setValues(prev =>({...prev,[event.target.name]:[event.target.value]}))
-  }
-
-  const handleSubmit =(event)=>{
-    event.preventDefault();
-    setErrors(validation(values));
-  }
-    
-  return(
+  
+    return(
         <>
         <section>
         <div className="imgBx">
@@ -29,13 +20,19 @@ const Login=()=>{
                 <span>Username</span>
                 <input
                   type="text"
-                  name="username" placeholder="Enter Username"onChange={handleInput}/>
+                  name="username"
+                  
+                  
+                />
               </div>
               <div className="inputBx">
                 <span>Password</span>
                 <input
                   type="password"
-                  name="password" placeholder="Enter Your Password" onChange={handleInput}/>
+                  name="password"
+                  
+                  
+                />
               </div>
               <div className="remember">
                 <label>
@@ -43,7 +40,7 @@ const Login=()=>{
                 </label>
               </div>
               <div className="inputBx">
-                <button type="Submit">Sign in</button>
+                <button type="Submit" >Sign in</button>
              </div>
 
               <div className="inputBx">
