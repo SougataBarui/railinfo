@@ -14,7 +14,7 @@ const Menubar=()=>{
         <li><Link to="/Zones"><a href="">Zones</a></Link></li>
         <li><Link to="/Loco"><a href="#">Locomotives</a></Link>
         </li>
-        <li><a href="#">Wagons</a>
+        <li><Link to="/Wagon"><a href="#">Wagons</a></Link>
         </li>
         <li><Link to="/Station"><a href="#">Major Stations</a></Link>
         </li>

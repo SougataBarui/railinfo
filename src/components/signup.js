@@ -1,5 +1,6 @@
 import React from "react";
 import "../style/login.css";
+import { Link } from 'react-router-dom';
 import Front from "../img/sign.jpg"
 const Signup=()=>{
     return(
@@ -30,7 +31,7 @@ const Signup=()=>{
               </div>
               <div className="inputBx">
                 <p>
-                  Have an account? <a href="#">Sign in</a>
+                  Have an account? <Link to="/Login"><a href="#">Sign in</a></Link>
                 </p>
               </div>
             </form>

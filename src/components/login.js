@@ -1,9 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 import "../style/login.css"
 import Back from "../img/l1.jpg"
+import { Link } from "react-router-dom";
 
 const Login=()=>{
-    return(
+
+  const[errors, setErrors]=useState({})
+  const handleInput =(event)=>{
+    setValues(prev =>({...prev,[event.target.name]:[event.target.value]}))
+  }
+
+  const handleSubmit =(event)=>{
+    event.preventDefault();
+    setErrors(validation(values));
+  }
+    
+  return(
         <>
         <section>
         <div className="imgBx">
@@ -17,19 +29,13 @@ const Login=()=>{
                 <span>Username</span>
                 <input
                   type="text"
-                  name="username"
-                  
-                  
-                />
+                  name="username" placeholder="Enter Username"onChange={handleInput}/>
               </div>
               <div className="inputBx">
                 <span>Password</span>
                 <input
                   type="password"
-                  name="password"
-                  
-                  
-                />
+                  name="password" placeholder="Enter Your Password" onChange={handleInput}/>
               </div>
               <div className="remember">
                 <label>
@@ -37,11 +43,12 @@ const Login=()=>{
                 </label>
               </div>
               <div className="inputBx">
-                <input type="submit" value="Sign in" name="" />
-              </div>
+                <button type="Submit">Sign in</button>
+             </div>
+
               <div className="inputBx">
                 <p>
-                  Don't have an account? <a href="#">Sign up</a>
+                  Don't have an account? <Link to="/Signup"><a href="#">Sign up</a></Link>
                 </p>
               </div>
             </form>

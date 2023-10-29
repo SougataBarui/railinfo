@@ -22,9 +22,9 @@ const Footer = ()=>{
             <h3>Links <div class="underline"><span></span></div></h3>
             <ul id="link">
                 <li><Link to="/">Home</Link></li>
-                <li><a href="">About us</a></li>
+                <li><Link to="/About"><a href="">About us</a></Link></li>
                 <li><Link to="/TC"><a href="">T&C</a></Link></li>
-                <li><a href="">Features</a></li>
+                <li><Link to="/Privacy"><a href="">Privacy Policy</a></Link></li>
                 <li><a href="">Contacts</a></li>
             </ul>
         </div>
@@ -33,7 +33,7 @@ const Footer = ()=>{
             <form id="newsletter">
                 <i class="far fa-regular fa-envelope"></i>
                 <input type="email" placeholder="Enter email ID"required/>
-                <button type="submit"><i class=" fas fa-solid fa-arrow-right"></i></button>
+                <button class ="button1" type="submit"><i class=" fas fa-solid fa-arrow-right"></i></button>
             </form>
             <div class="social-icons">
                 <i class="fab fa-brands fa-facebook"></i>

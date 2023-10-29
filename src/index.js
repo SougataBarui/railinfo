@@ -26,6 +26,8 @@ import Shundie from './components/shundie';
 import Station from './components/station';
 import About from './components/about';
 import TC from './components/t&c';
+import Privacy from './components/privacy';
+import Wagon from './components/wagon';
 
 const AppContainer = ()=>{
   return(
@@ -91,6 +93,14 @@ const AppContainer = ()=>{
       <Routes>
         <Route path='/TC' element={<TC/>}/>
       </Routes>
+      <Routes>
+        <Route path='/Privacy' element={<Privacy/>}/>
+      </Routes>
+      <Routes>
+        <Route path='/Wagon' element={<Wagon/>}/>
+      </Routes>
+
+
       <Top/>
       <Footer />
     </Router>
