@@ -22,8 +22,8 @@ const Footer = ()=>{
             <h3>Links <div class="underline"><span></span></div></h3>
             <ul id="link">
                 <li><Link to="/">Home</Link></li>
-                <li><a href="">Services</a></li>
                 <li><a href="">About us</a></li>
+                <li><Link to="/TC"><a href="">T&C</a></Link></li>
                 <li><a href="">Features</a></li>
                 <li><a href="">Contacts</a></li>
             </ul>

@@ -1,0 +1,9 @@
+.contain{
+    margin-right: 18%;
+    margin-left: 2%;
+  }
+  .contain p{
+    line-height: 30px;
+    font-size: 20px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  }

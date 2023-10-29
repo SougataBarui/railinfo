@@ -25,6 +25,7 @@ import Goodsdie from './components/goodsdie';
 import Shundie from './components/shundie';
 import Station from './components/station';
 import About from './components/about';
+import TC from './components/t&c';
 
 const AppContainer = ()=>{
   return(
@@ -87,7 +88,9 @@ const AppContainer = ()=>{
       <Routes>
         <Route path='/About' element={<About/>}/>
       </Routes>
-      
+      <Routes>
+        <Route path='/TC' element={<TC/>}/>
+      </Routes>
       <Top/>
       <Footer />
     </Router>
